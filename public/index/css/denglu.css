@@ -1,0 +1,194 @@
+.bg{
+	width: 100%;
+	background-image: url(http://website-1-zengshungeng.tenxapp.com/img/bg.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.dz{
+	font-family: fangzheng;
+	font-weight: bold;
+	font-size: 16px;
+	margin-top:40px;
+}
+
+.dz > a{
+	border-bottom: 2px solid #fff;
+	display: block;
+	width: 50px;
+	text-align: center;
+	margin: 10px;
+	padding: 5px;
+	color: #fff;
+}
+
+.title{
+	color: #fff;
+	text-align: center;
+	margin: -80px auto;
+	font-family: fangzheng;
+	
+}
+
+.title span{
+	font-size: 24px;
+
+}
+
+.title p{
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+.ba{
+	width: 50%;
+	margin: 100px auto;
+	background: #f2f2f2;
+	height: 520px;
+	border-radius: 15px;
+}
+
+.zc{
+	width: 100px;
+	margin: 0 auto;
+}
+
+.zc span{
+	display: block;
+	text-align: center;
+	color: #3eafab;
+	font-family: fangzheng;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: -15px;
+}
+
+.zc img{
+	margin-top: 60px;
+}
+
+form{
+	margin: 30px auto;
+	width: 55%;
+	overflow: hidden;
+}
+
+label{
+	font-family: Adobe-hei;
+	font-size: 18px;
+	font-weight: bold;
+	color: #3eafab; 
+}
+
+input{
+	border: none;
+	background: none;
+	height: 30px;
+	width: 70%;
+}
+
+.zc-line{
+	width: 100%;
+	overflow: hidden;
+}
+
+.fo-li{
+	float:right;
+	width: 80%;
+	border-bottom: 2px solid #3eafab;
+	margin-top: 10px;
+}
+
+.code{
+	float: left;
+	width: 65%;
+	margin-left: 55px;
+	overflow: hidden;
+}
+
+.code input{
+	float:left;
+	width: 100px;
+}
+
+
+.zc-line img{
+	float: left;
+	width: 30px;
+	margin-top: 12px;
+}
+
+.code img{
+	width: 70px;
+	height: 30px;
+	float: right;
+	margin-top: 0;
+}
+
+.code-img{
+	float: right !important;
+}
+
+.b-t{
+	width: 68%;
+	margin: 5px auto ;
+	text-align: center;
+}
+
+.b-t a{
+	font-family: Adobe 黑体 Std R;
+	font-size: 12px;
+	font-weight: bold;
+	color: #163d42;
+}
+
+.b-t-l{
+	float: left;
+	margin-left: 10px;
+}
+
+.b-t-r{
+	float: right;
+}
+
+button{
+	display: block;
+	width: 35%;
+	font-family: Adobe 黑体 Std R;
+	font-size: 24px;
+	font-weight: bold;
+	color: #3eafab; 
+	text-align: center;
+	border: none;
+	border-bottom: 2px solid #3eafab;
+	background: none;
+	margin: 25px auto;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.b-p{
+	font-family: Adobe 黑体 Std R;
+	font-size: 13px;
+	font-weight: bold;
+	color: #163d42;
+	text-align: center;
+	margin-top: -10px;
+}
+
+.b-lian{
+	width: 80%;
+	margin: 10px auto;
+	font-family: Adobe 黑体 Std R;
+	font-size: 14px;
+	font-weight: bold;
+	color: #3eafab;
+	text-align: center;
+	border-bottom: 2px solid #3eafab;
+	padding-bottom: 5px;
+}
+
+.b-i{
+	text-align: center;
+}

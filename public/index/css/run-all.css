@@ -1,0 +1,61 @@
+.tab-title li a {
+  font-size: 14px;
+  color: #3eafab; }
+.tab-title li.active:hover a {
+  color: #3eafab; }
+.tab-title li.active a {
+  background: #f2f2f2;
+  color: #163d42; }
+.tab-title .fb-btn {
+  color: #3eafab;
+  font-size: 14px;
+  margin-top: 18px; }
+  .tab-title .fb-btn .glyphicon {
+    margin-right: 5px; }
+
+.tab-ctr {
+  margin: 40px auto;
+  width: 85%;
+  overflow: hidden; }
+  .tab-ctr .tab-line {
+    float: left;
+    width: 20%;
+    box-sizing: border-box;
+    padding: 10px 20px; }
+    .tab-ctr .tab-line .tab-box {
+      width: 100%;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #f2f2f2; }
+    .tab-ctr .tab-line img {
+      width: 100%; }
+    .tab-ctr .tab-line:nth-child(2n) {
+      margin-top: 150px; }
+    .tab-ctr .tab-line h1 {
+      margin-top: 15px;
+      font-size: 14px;
+      font-weight: bold;
+      text-align: justify;
+      line-height: 1.2em; }
+      .tab-ctr .tab-line h1 a {
+        color: #163d42; }
+    .tab-ctr .tab-line .line-bg {
+      width: 100%;
+      height: 10px;
+      background: #f2f2f2;
+      margin: 15px 0;
+      border-radius: 5px;
+      overflow: hidden; }
+      .tab-ctr .tab-line .line-bg .line {
+        width: 70%;
+        height: 100%;
+        background: #3eafab; }
+    .tab-ctr .tab-line .num {
+      overflow: hidden;
+      font-size: 12px; }
+      .tab-ctr .tab-line .num .l-num {
+        float: left; }
+      .tab-ctr .tab-line .num .r-num {
+        float: right; }
+
+/*# sourceMappingURL=run-all.css.map */

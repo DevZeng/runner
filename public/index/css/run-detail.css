@@ -1,0 +1,83 @@
+.hd-info {
+  margin-top: 40px;
+  overflow: hidden; }
+  .hd-info img {
+    width: 100%; }
+  .hd-info .hd-img {
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 40px;
+    border: 3px solid #3eafab; }
+  .hd-info .hd-table {
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+    border: 3px solid #3eafab;
+    margin-left: -3px;
+    height: 100%; }
+    .hd-info .hd-table .t-title {
+      text-align: center;
+      font-size: 18px;
+      margin-top: 37px; }
+      .hd-info .hd-table .t-title span {
+        padding: 0 20px;
+        background: url(../img/sanjiao-zuo.png) left center, url(../img/sanjiao-you.png) right center;
+        background-repeat: no-repeat; }
+    .hd-info .hd-table table {
+      margin: 37px auto;
+      width: 90%; }
+      .hd-info .hd-table table tr {
+        height: 50px; }
+      .hd-info .hd-table table .title {
+        width: 15%; }
+      .hd-info .hd-table table .text {
+        width: 35%; }
+
+.hd-detail {
+  margin-top: 80px; }
+  .hd-detail .user {
+    overflow: hidden; }
+    .hd-detail .user .user-img {
+      float: left;
+      width: 10%; }
+      .hd-detail .user .user-img img {
+        width: 100%; }
+    .hd-detail .user .user-info {
+      float: right;
+      width: 90%;
+      overflow: hidden;
+      box-sizing: border-box;
+      border-bottom: 2px solid #3eafab;
+      padding-left: 15px; }
+      .hd-detail .user .user-info .t-l {
+        float: left;
+        margin-top: 25px; }
+      .hd-detail .user .user-info h2 {
+        font-size: 20px;
+        color: #3eafab; }
+        .hd-detail .user .user-info h2 .run-age {
+          margin-left: 10px;
+          font-size: 0.6em;
+          color: #163d42; }
+      .hd-detail .user .user-info p {
+        margin-top: 5px;
+        font-size: 14px;
+        color: #163d42; }
+      .hd-detail .user .user-info .t-r {
+        float: right;
+        margin-top: 50px;
+        font-size: 14px; }
+        .hd-detail .user .user-info .t-r a {
+          margin-right: 15px;
+          color: #163d42; }
+        .hd-detail .user .user-info .t-r .glyphicon {
+          margin-right: 5px;
+          font-size: 16px;
+          color: #f9e495; }
+
+.Hdctr img {
+  margin-top: 20px;
+  width: 80%; }
+
+/*# sourceMappingURL=run-detail.css.map */

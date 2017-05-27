@@ -1,0 +1,77 @@
+#personal .personal-info {
+  margin-top: 80px;
+  height: 400px;
+  box-sizing: border-box;
+  border: 10px solid #3eafab;
+  background: #3eafab;
+  border-left: 0; }
+#personal .l-ctr {
+  float: left;
+  width: 25%;
+  height: 100%;
+  background: #3eafab; }
+#personal .r-ctr {
+  width: 75%;
+  height: 100%;
+  float: right;
+  background: #fff;
+  overflow: hidden;
+  font-family: fangzheng;
+  font-size: 13px;
+  text-align: left;
+  vertical-align: center; }
+#personal .r-ctr span {
+  display: block;
+  width: 30px;
+  border-bottom: 2px solid #163d42;
+  font-weight: bold;
+  float: right;
+  margin: 20px; }
+#personal .r-ctr table {
+  width: 80%;
+  border: 0;
+  margin: 20px auto; }
+#personal .r-ctr td:nth-child(odd) {
+  font-weight: bold;
+  font-size: 14px; }
+#personal .r-ctr td {
+  width: 10px;
+  height: 30px; }
+#personal .l-ctr .user .user-icon {
+  width: 120px;
+  height: 120px;
+  margin: -70px auto 0 auto;
+  border: 7px solid #3eafab;
+  border-radius: 150px; }
+  #personal .l-ctr .user .user-icon img {
+    width: 100%; }
+#personal .l-ctr .user p {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center; }
+#personal .l-ctr .l-nav {
+  width: 100%;
+  margin-top: 30px;
+  overflow: hidden; }
+#personal .l-ctr .l-nav li {
+  margin-top: 30px;
+  padding-bottom: 6px;
+  float: right;
+  width: 50%;
+  clear: right;
+  border-bottom: 2px solid #fff; }
+#personal .l-ctr .l-nav li.active {
+  list-style-image: url(../img/grsj.png); }
+#personal .l-ctr .l-nav li:first-child {
+  margin-top: 0; }
+#personal .l-ctr .l-nav li a {
+  color: #fff; }
+#personal .four-block {
+  margin-top: 40px; }
+  #personal .four-block .f-box > div {
+    width: 100%;
+    height: 400px;
+    background: #f9e495; }
+
+/*# sourceMappingURL=personal.css.map */

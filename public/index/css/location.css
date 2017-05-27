@@ -1,0 +1,128 @@
+.bg {
+  position: relative;
+  width: 100%;
+  background-image: url(http://website-1-zengshungeng.tenxapp.com/img/bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow: hidden; }
+
+.dz {
+  position: absolute;
+  font-size: 16px;
+  margin-top: 40px; }
+
+.dz > a {
+  border-bottom: 2px solid #fff;
+  display: block;
+  width: 50px;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+  color: #fff; }
+
+.container {
+  position: absolute;
+  width: 70%;
+  left: 50%;
+  top: 50%;
+  margin-top: -300px;
+  margin-left: -35%;
+  padding: 0; }
+
+.title {
+  margin-bottom: 30px;
+  color: #fff;
+  text-align: center;
+  font-family: fangzheng; }
+  .title img {
+    width: 100px; }
+
+.title span {
+  font-size: 24px; }
+
+.title p {
+  font-size: 14px;
+  margin-top: 10px; }
+
+.inpu {
+  margin: 0 auto; }
+
+.i-p {
+  width: 100%;
+  height: 50px; }
+
+.i-p .c-place {
+  float: left;
+  width: 15%;
+  height: 100%;
+  background: #3eafab; }
+
+.i-p .c-place ul {
+  width: 100%; }
+
+.i-p .c-place ul li {
+  width: 100%;
+  height: 50px; }
+
+.i-p .c-place ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+  font-size: 16px; }
+
+.i-p .c-input {
+  float: left;
+  padding-left: 40px;
+  width: 85%;
+  height: 100%;
+  box-sizing: border-box; }
+
+.i-p .c-input input {
+  float: left;
+  width: 80%;
+  height: 100%;
+  box-sizing: border-box;
+  padding-left: 10px;
+  border: none;
+  color: #3eafab; }
+
+.i-p .c-input form {
+  width: 100%;
+  height: 100%; }
+
+.i-p .c-input button {
+  float: right;
+  width: 15%;
+  height: 100%;
+  border: none;
+  background: #3eafab;
+  color: #fff;
+  font-size: 16px; }
+
+.inpu p {
+  color: #fff;
+  font-family: fangzheng;
+  font-size: 14px;
+  margin-top: 10px; }
+
+.hot-place {
+  color: #ccc18c; }
+
+.map {
+  margin: 40px auto;
+  height: 400px; }
+  .map #l-map {
+    height: 100%; }
+
+.map-ctr {
+  margin: 0 auto;
+  width: 80%; }
+
+.u-tips {
+  clear: left;
+  margin-bottom: 20px; }
+
+/*# sourceMappingURL=location.css.map */

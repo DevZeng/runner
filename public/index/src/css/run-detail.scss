@@ -1,0 +1,129 @@
+@mixin _transition($value: 0.4s){
+	transition: $value;
+	-moz-transition: $value;	/* Firefox 4 */
+	-webkit-transition: $value;	/* Safari 和 Chrome */
+	-o-transition: width $value;	/* Opera */
+}
+
+$_blue: #3eafab;
+$_black: #163d42;
+
+.hd-info{
+	margin-top: 40px;
+	overflow: hidden;
+	img{
+		width: 100%;
+	}
+	.hd-img{
+		float:left;
+		width: 30%;
+		box-sizing: border-box;
+		padding: 40px;
+		border: 3px solid $_blue;
+	}
+	.hd-table{
+		float: left;
+		width: 70%;
+		box-sizing: border-box;
+		border: 3px solid $_blue;
+		margin-left: -3px;
+		height: 100%;
+
+		.t-title{
+			text-align: center;
+			font-size: 18px;
+			margin-top: 37px;
+
+			span{
+				padding: 0 20px;
+				background: url(../img/sanjiao-zuo.png) left center,url(../img/sanjiao-you.png) right center;
+				background-repeat: no-repeat;
+			}
+		}
+
+		table{
+			margin: 37px auto;
+			width: 90%;
+
+			tr{
+				height: 50px;
+			}
+
+			.title{
+				width: 15%;
+			}
+			.text{
+				width: 35%;
+			}
+		}
+	}
+}
+
+.hd-detail{
+	margin-top: 80px;
+
+	.user{
+		overflow: hidden;
+		.user-img{
+			float:left;
+			width: 10%;
+			img{
+				width: 100%;
+			}
+		}
+		.user-info{
+			float:right;
+			width: 90%;
+			overflow: hidden;
+			box-sizing: border-box;
+			border-bottom: 2px solid $_blue;
+			padding-left: 15px;
+
+			.t-l{
+				float: left;
+				margin-top: 25px;
+			}
+
+			h2{
+				font-size: 20px;
+				color: $_blue;
+
+				.run-age{
+					margin-left: 10px;
+					font-size: 0.6em;
+					color: $_black;
+				}
+			}
+
+			p{
+				margin-top: 5px;
+				font-size: 14px;
+				color:$_black;
+			}
+
+			.t-r{
+				float: right;
+				margin-top: 50px;
+				font-size: 14px;
+
+				a{
+					margin-right: 15px;
+					color: $_black;
+				}
+
+				.glyphicon{
+					margin-right: 5px;
+					font-size: 16px;
+					color: #f9e495;
+				}
+			}
+		}
+	}
+}
+
+.Hdctr{
+	img{
+		margin-top: 20px;
+		width: 80%;
+	}
+}

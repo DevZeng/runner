@@ -1,0 +1,65 @@
+.run-launch {
+  overflow: hidden;
+  border: 3px solid #3eafab;
+  margin-top: 40px;
+  padding: 0; }
+
+.left-form {
+  float: left;
+  width: 50%; }
+  .left-form input {
+    outline: none;
+    box-shadow: none; }
+    .left-form input:focus {
+      border-color: none;
+      outline: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none; }
+  .left-form .form-title {
+    width: 100%;
+    padding: 10px 0; }
+    .left-form .form-title .form-group {
+      margin: 0; }
+      .left-form .form-title .form-group input {
+        background: none;
+        border-radius: 0;
+        border: 0; }
+  .left-form .form-ctr {
+    background: #3eafab;
+    width: 100%;
+    padding: 40px 0 120px 0; }
+    .left-form .form-ctr .form-itd {
+      margin: 0 auto;
+      width: 84%; }
+      .left-form .form-ctr .form-itd label {
+        color: #fff; }
+    .left-form .form-ctr input {
+      font-size: 12px;
+      border: 0;
+      border-bottom: 2px solid #fff;
+      background: none;
+      border-radius: 0;
+      color: #fff; }
+      .left-form .form-ctr input::-webkit-input-placeholder {
+        /* WebKit browsers */
+        color: #eee; }
+      .left-form .form-ctr input:-moz-placeholder {
+        /* Mozilla Firefox 4 to 18 */
+        color: #eee; }
+      .left-form .form-ctr input::-moz-placeholder {
+        /* Mozilla Firefox 19+ */
+        color: #eee; }
+      .left-form .form-ctr input:-ms-input-placeholder {
+        /* Internet Explorer 10+ */
+        color: #eee; }
+  .left-form .min-label {
+    text-align: center; }
+
+.right-edit {
+  width: 50%;
+  height: 599px;
+  float: left; }
+  .right-edit .edui-default .edui-editor {
+    border-radius: 0; }
+
+/*# sourceMappingURL=run-launch.css.map */

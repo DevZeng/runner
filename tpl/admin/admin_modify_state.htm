@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>无标题文档</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.idTabs.min.js"></script>
+    <script type="text/javascript" src="js/select-ui.min.js"></script>
+   
+    <script type="text/javascript" src="js/setday.js"></script>
+    <script type="text/javascript">
+    var $$ = function (id) { 
+    return document.getElementById(id); 
+    } 
+   
+
+    <script type="text/javascript">
+        $(document).ready(function (e) {
+            $(".select1").uedSelect({
+                width: 345
+            });
+            $(".select2").uedSelect({
+                width: 167
+            });
+            $(".select3").uedSelect({
+                width: 100
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+<div class="place">
+    <span>位置：</span>
+    <ul class="placeul">
+        <li><a href="admin_right.php">首页</a></li>
+        <li><a href="admin_add_huitu.php">修改状态</a></li>
+    </ul>
+</div>
+
+
+
+<div class="formbody">
+
+
+    <div id="usual1" class="usual">
+
+        <div class="itab">
+            <ul>
+                <li><a href="#tab1" class="selected">修改状态</a></li>
+            </ul>
+        </div>
+
+        <div id="tab1" class="tabson">
+            <form method="post" name="workorderinfo" enctype="multipart/form-data">
+               <!--if($workorder[state]<6)-->
+                <ul class="forminfo">
+                     <li><label>修改状态<b>*</b></label>
+            
+                   {run:}$arr=$acts->db_select_all("orderstate","`id` > $workorder[state] ","*");{/run}
+                    <select name="state" class="dfinput">
+                    <option value="">请选择</option>
+                    <!--$arr as $v-->
+                    <option value="{v[id]}" >{v[title]}</option>
+                    <!--END-->
+                    </select>
+                    </li>
+                    <li><input name="submitstate" type="submit" class="btn" value="提交"/></li>
+                   
+                </ul>
+                <!--else-->
+                <ul class="forminfo">
+                     <li><label>修改状态<b>*</b></label>
+            
+                   {run:}$arr=$acts->db_select_all("orderstate","`id` NOT BETWEEN 2 and 5","*");{/run}
+                    <select name="state" class="dfinput">
+                    <option value="">请选择</option>
+                    <!--$arr as $v-->
+                    <option value="{v[id]}" >{v[title]}</option>
+                    <!--END-->
+                    </select>
+                    </li>
+                    <li><input name="submitstate" type="submit" class="btn" value="提交"/></li>
+                   
+                </ul>
+                <!--end-->
+            </form>
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+
+</div>
+<script type="text/javascript">
+    $("#usual1 ul").idTabs();
+</script>
+
+<script type="text/javascript">
+    $('.tablelist tbody tr:odd').addClass('odd');
+</script>
+
+</body>
+
+</html>
